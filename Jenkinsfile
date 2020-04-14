@@ -9,7 +9,7 @@ pipeline {
         stage("Check hostname of docker container") {
             steps {
                 sh """ 
-                cat /etc/hostname
+                   cat /etc/hostname
                 """
             } //steps
         } //stage
